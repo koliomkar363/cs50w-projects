@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Set viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Link CSS File -->
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Image Search</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header-links">
+            <!-- Header Links -->
+            <a href="index.html">Google Search</a>
+        </header>
+        
+        <!--  Image Search Container -->
+        <main class="search-container">
+            <!-- Google Logo -->
+            <div class="search-container-logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+                <span id="img-text">images</span>
+            </div>
+            <!-- Form of Image Search -->
+            <form action="https://google.com/search" method="GET">
+                <div class="search-container-large">
+                    <input type="text" name="q">
+                </div>
+                <!-- Image Search Button -->
+                <div class="search-container-submit"></div>
+                    <input type="submit" value="Image Search">
+                </div>
+                <input type="hidden" name="tbm" value="isch">
+            </form>
+        </main>
+
+    </body>
+</html>
